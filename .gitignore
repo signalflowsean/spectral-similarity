@@ -1,0 +1,18 @@
+.DS_Store
+node_modules
+dist
+
+# virtual environments
+env/
+.env
+
+# db migrations
+migrations/
+
+# intellij config
+.idea/
+
+
+# ignore all generated python files
+*.pyc
+
