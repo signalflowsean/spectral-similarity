@@ -40,7 +40,6 @@ before_script:
   ## we use the '&' ampersand which tells
   ## travis to run this process in the background
   ## else it would block execution and hang travis
-  - cd frontend
   - npm start -- --silent &
 
 script:
@@ -50,7 +49,6 @@ script:
   ## CYPRESS_RECORD_KEY environment
   ## variable by default and apply
   ## this to the run.
-  - cd frontend
   - npm run cypress:run
 
   ## alternatively we could specify
