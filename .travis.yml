@@ -22,6 +22,7 @@ cache:
 
 install:
   # use the new "ci" command for fastest installs on CI
+  - cd frontend
   - npm ci
 
 before_script:
