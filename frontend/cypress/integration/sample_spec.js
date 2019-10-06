@@ -1,18 +1,5 @@
-describe('My First Test', () => {
-  it('Visits the kitchen sink', function() {
-
-    // expect(true).to.equal(true);
-    cy.visit('http://example.cypress.io');
-
-    pause()
-
-    cy.contains('type').click()
-
-    cy.url()
-      .should('include', '/commands/actions')
-
-    cy.get('.action-email')
-      .type('fake@email.com')
-      .should('have.value', 'fake@email.com')
+describe('Test Continous Integration', () => {
+  it('Runs a silly simple test to make sure Travis is configured correctly', function() {
+    expect(true).to.equal(true); 
   });
 });

@@ -7,7 +7,8 @@
   "scripts": {
     "start": "webpack-dev-server  --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
-    "test": "cypress open"
+    "test": "cypress open", 
+    "cypress:run": "cypress run"
   },
   "keywords": [],
   "author": "",
