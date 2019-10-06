@@ -1,5 +1,9 @@
 .DS_Store
+
+# ignore node modules
 node_modules
+
+# ignore the build folder
 dist
 
 # virtual environments
@@ -12,7 +16,7 @@ migrations/
 # intellij config
 .idea/
 
-
 # ignore all generated python files
 *.pyc
+
 
